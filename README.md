@@ -7,15 +7,25 @@ Incluye temas fundamentales, programación orientada a objetos, estructuras de d
 ---
 
 ## 📁 Estructura del Proyecto
+
 ├── src/
+
 │ ├── inicio/ # Introducción y fundamentos básicos
+
 │ ├── PrimerosEjercicios/ # Primeros ejercicios de práctica
+
 │ ├── tests/ # Scripts de prueba
+
 │ └── ... # Otros módulos o temas
+
 ├── venv/ # Entorno virtual (excluido en el control de versiones)
+
 ├── Myareas.png # Visualizaciones o resultados gráficos
+
 ├── crear_estructura.py # Script para crear estructura del proyecto
+
 ├── requirements.txt # Librerías necesarias
+
 └── README.md # Este archivo
 
 yaml
