@@ -1,0 +1,26 @@
+#Importar las bibliotecas necesarias
+import matplotlib.pyplot as plt
+
+
+#Crea la variable independente x
+x = [0,1,2,3,4,5]
+#Crea la variable dependente y
+y = x
+
+
+#Cambiar el tamaño de la parcela con figsize
+fig = plt.figure(figsize=(10,5))
+# Agregue un conjunto de ejes a la figura
+axes = fig.add_axes([0.1, 0.1, 0.8, 0.8])
+# Establezcamos una etiqueta para nuestro eje x
+axes.set_xlabel("Variable independiente")
+# Hagamos lo mismo con nuestra variable dependiente
+axes.set_ylabel("Variable dependiente")
+#Definamos un título
+plt.title("Mi primera trama asombrosa")
+# Trazar en ese conjunto de ejes
+axes.plot(x, y, 'r')
+
+
+#Muestra la trama
+plt.show()
